@@ -1,14 +1,15 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Karen Avila</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">       
+    <title>De la idea a la Acción | Karen Avila</title>
+    <meta name="description" content="Lo que todo freelance o emprendedor debe hacer con las finanzas, marketing e innovación en sus negocios"> <!--mínimo 126 carácteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--siempre tiene que estar ésta etiqueta para responsive-->      
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Oswald|Montserrat|Quicksand|Source+Sans+Pro" rel="stylesheet">
+  	<link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -16,18 +17,8 @@
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-    <div class="jumbotron">
-    	<div class="container-fluid">
-    		<div class="row text-center header">
-    			<img href="www.google.com" src="img/logo-icon.PNG" class="image-home">
-    			<h1 class="home">acciónnow</h1>
-    			<p class="home">Por Karen Avila</p>
-    		</div>
-    	</div>
-    </div>        
-
-    <nav class="navbar navbar-default navbar-fixed-top">
+     
+    <nav class="navbar navbar-default navbar-static-top">
 	  <div class="container">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -43,56 +34,82 @@
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Autor</a></li>
-	        <li><a href="#">Publicaciones</a></li>
+	        <li><a href="#Publicaciones">Publicaciones</a></li>
 	        <li><a href="#">PodCast</a></li>
 	        <li><a href="#">Webbinar</a></li>
+	        <li><a href="#">Autor</a></li>
 	        <li><a href="#">Contacto</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-	<section class="container">
-		<div class="row">
-			<div class="page-header">
-			<h1>About</h1>
-			</div>	
-		</div>	
+	<div id="btn-jumb" class="jumbotron">
+    	<div class="container-fluid">
+    		<div class="row text-center header">
+    			<ul class="ul-home">
+    				<li class="li-home"><i id="btn-1" class="mdi mdi-lightbulb-outline"></i></li>
+    				<li class="li-home"><i id="btn-2" class="mdi mdi-arrow-right-drop-circle-outline"></i></li>
+    				<!--li class="li-home"><i id="btn-3" class="mdi mdi-lightbulb-outline"></i></li-->
+    				<!--li class="li-home"><i id="btn-4" class="mdi mdi-arrow-right-drop-circle-outline"></i></li-->
+    			</ul>	
+    			<h1 class="home" id="text-home">actionnity</h1>
+    			<p class="home">Emprendedores en Acción</p>
+    		</div>
+    	</div>
+    </div> 
 
+
+	<section class="container" id="top-content">
 		<div class="row">
+			<h1 class="home-black">Lo hiper del mes</h1>
 			<div class="col-md-6">
-			<h2 class="subtitle">Service#1</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos omnis molestias tenetur tempora vero dignissimos explicabo quia placeat et doloremque quasi sequi adipisci earum, illum, veritatis commodi, suscipit delectus sint!</p>
+				<a class="link-post" href="#">Mentes Creativas, una ventaja competitiva.</a>
+				<p class="resume-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos omnis molestias tenetur tempora vero dignissimos explicabo quia placeat et doloremque quasi sequi adipisci earum, illum, veritatis commodi, suscipit delectus sint!</p>
+				<a href="#" class="btn-publication">Leer el post</a>
 			</div>
 			<div class="col-md-6">
-			<img src="img/img6.jpeg" class="img-roundedown">
-			</div>	
+				<img src="img/christian-sterk-174005.jpg" class="img-roundedown" alt="mentes creativas post">
+			</div>
+		</div>	
+		<div class="space"></div>	
+		<div class="row">
+			<div class="col-md-6">
+				<img src="img/dan-gold-195891.jpg" class="img-roundedown2" alt="declaración anual 2017" >
+			</div>
+			<div class="col-md-6">
+				<a class="link-post" href="#">Como hacer tu declaración anual 2017.</a>
+				<p class="resume-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos omnis molestias tenetur tempora vero dignissimos explicabo quia placeat et doloremque quasi sequi adipisci earum, illum, veritatis commodi, suscipit delectus sint!</p>
+				<a href="#" class="btn-publication">Agendar Webbinar</a>
+			</div>			
 		</div>
-		
-
+		<div class="space"></div>
 		<div class="row">
+				<div class="col-md-6">
+				<a class="link-post" href="#">Tolerancia al Fracaso, ¿Todos Pueden?</a>
+				<p class="resume-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos omnis molestias tenetur tempora vero dignissimos explicabo quia placeat et doloremque quasi sequi adipisci earum, illum, veritatis commodi, suscipit delectus sint!</p>
+				<a href="#" class="btn-publication">Escuchar el Podcast</a>
 			</div>
 			<div class="col-md-6">
-			<img src="img/img8.jpeg" class="img-roundedown2">
+				<img src="img/fracaso.jpg" class="img-roundedown" alt="tolerancia al fracaso">
 			</div>
-			<div class="col-md-6">
-			<h2 class="subtitle">Service#2</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos omnis molestias tenetur tempora vero dignissimos explicabo quia placeat et doloremque quasi sequi adipisci earum, illum, veritatis commodi, suscipit delectus sint!</p>
-			</div>	
-		</div>	
+		</div>
 	</section>
 
-	<!-- Section Container -->
-	<section class="team container">
-		<div class="row">
+	<!-- Section Autor -->
+	<section class="container-fluid" id="publicaciones">
+		<div id="jumb-public" class="jumb-public">
 			<div class="row">
-				<div class="col-md-12">
-					<h2 class="subtitle">Team</h2>
+				<div class="col-md-6">
+					<img src="img/worthy-of-elegance-9808.jpg" class="img-roundedown3">
+				<div class="col-md-6">
+					<h1 class="home-1">Publicaciones</h1>
 				</div>
 			</div>
+		</div>
+	</section>
+		
 			<!--Thumbnail 1 -->
 			<div class="col-sm-6 col-md-3">
 		   		<div class="thumbnail">
@@ -139,6 +156,7 @@
 	</section>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>        
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>        
 </body>
 </html>
