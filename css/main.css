@@ -282,7 +282,7 @@ textarea {
 }
 
 .jumbotron {
-    background-color: #333;
+    background-color: #000;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -290,7 +290,7 @@ textarea {
 }
 
 .jumbotron-js {
-    background-color: #ffd500;
+    background-color: #ffec00;
 }
 
 .navbar-brand {
@@ -299,17 +299,17 @@ textarea {
 }
 
 .navbar-default {
-    background-color: #333;
+    background-color: #000;
     padding: 25px;
     border-color: transparent;
     margin-bottom: 0px;
 }
 
 .navbar-default-transform {
-    background-color: #ffd500;
+    background-color: #ffec00;
     padding: 20px;
     color: #fff;
-    border-color: #ffd500;
+    border-color: #ffec00;
 }
 
 .navbar-default .navbar-brand {
@@ -320,8 +320,8 @@ textarea {
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #ffd500;
-    border-color: #ffd500;
+    color: #ffec00;
+    border-color: #ffec00;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -364,41 +364,31 @@ h1.home {
     margin-top: 50px;
 }
 
-h1.home-1 {
-    font-family: 'Fredoka One', Cursive;
-    font-size: 40px;
-    color: #333;
-    display: inline-block;
-    position: absolute;
-    margin-left: 450px;
-    bottom: 400px;
-}
-
 h1.home-black {
     font-family: 'Fredoka One', Cursive;
     font-size: 40px;
-    color: #ffd500;
+    color: #ffec00;
     margin-bottom: 43px;
 }
 
-a.link-post {
+.media-heading-link {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    color: #333;
+    color: #000;
     text-decoration: none
 }
 
-a.link-post:hover {
+.media-heading-link:hover {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    color: #44B2AF;
+    color: #00e1ff;
     cursor: -webkit-grab;
 }
 
 p.resume-post {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
-    color: #333;
+    color: #000;
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -406,16 +396,18 @@ p.resume-post {
 a.btn-publication {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
-    background-color: #ffd500;
-    color: #333;
+    background-color: #ffec00;
+    color: #000;
     padding: 10px 10px;
     text-decoration: none;
 }
 
 a.btn-publication:hover {
-    background-color: #44B2AF;
+    background-color: #00e1ff;
     color: #fff;
 }
+
+
 
 div.space {
     margin-top: 40px;
@@ -445,7 +437,13 @@ div.space {
 
 ul.ul-home {
     list-style: none;
-    margin-top: 150px;
+    margin-top: 90px;
+    padding-left: 0;
+}
+
+ul.ul-autor {
+    list-style: none;
+    margin-top: 50px;
     padding-left: 0;
 }
 
@@ -454,28 +452,207 @@ li.li-home {
     padding: 15px;
 }
 
-.mdi, .mdi-set {
+li.li-autor {
+    display: inline-block;
+    padding: 15px;
+}
+
+.mdi-lightbulb-outline {
     display: inline-block;
     font: normal normal normal 24px/1 "Material Design Icons";
     font-size: 160px;
     color: #fff;
 }
-
-.mdi:hover, .mdi-set {
-    color: #ffd500;
+    
+.mdi-lightbulb-on-outline {
+    color: #ffec00;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 160px;
     cursor: -webkit-grab 
 }
 
-div.jumb-public {
+.mdi-arrow-right-drop-circle-outline {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 160px;
+    color: #fff;
+}
+    
+.mdi-arrow-down-drop-circle {
+    color: #ffec00;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 160px;
+    cursor: -webkit-grab 
+}
+
+.mdi-readability {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 160px;
+    color: #000;
+    position: relative;
+    margin-left: 600px;
+    margin-top: 136px;
+}
+
+.mdi-library {
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 28px;
+    color: #000;
+}
+
+.mdi-facebook {
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 36px;
+    color: #333;
+}
+
+.mdi-facebook:hover {
+    color: #00e1ff
+}
+
+.mdi-twitter {
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 36px;
+    color: #333;
+}
+
+.mdi-twitter:hover {
+    color: #00e1ff
+}
+
+.mdi-instagram {
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 36px;
+    color: #333;
+}
+
+.mdi-instagram:hover {
+    color: #00e1ff
+}
+
+.mdi-github-face {
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 36px;
+    color: #333;
+}
+
+.mdi-github-face:hover {
+    color: #00e1ff
+}
+
+.l-blog {
     margin-top: 60px;
-    margin-bottom: 60px;
-    background-color: #ffd500;
+    margin-bottom: 40px;
+    background-color: #ffec00;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 100px;
     position: relative;
 }
+
+.l-blog-tittle {
+    font-family: 'Fredoka One', Cursive;
+    font-size: 40px;
+    color: #000;
+    position: absolute;
+    margin: 2%;
+    margin-left: 45%;
+}
+
+.l-autor {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-color: #000;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100px;
+    position: relative;
+}
+
+.l-autor-tittle {
+    font-family: 'Fredoka One', Cursive;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    margin: 2%;
+    margin-left: 33%;
+}
+
+.l-blog-sub {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    background-color: #fff;
+    height: 50px;
+    position: relative;
+}
+
+.l-blog-subtittle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #000;
+    position: absolute;
+    margin-left: 35%;
+}
+
+.l-thumbnail-tittle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+.c-media-object {
+    display: block;
+    max-width: 450px;
+    height: auto;
+}
+
+.c-thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.c-thumbnail-img {
+    height: 150px;
+    width: auto;
+    display: block;
+}
+
+.c-thumbnail-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.c-thumbnail-btn:hover {
+    color: #fff;
+    background-color: #00e1ff;
+    border-color: #00e1ff;
+    text-decoration: none;
+}
+
 
 .img-roundedown3 {
     width: 376px;

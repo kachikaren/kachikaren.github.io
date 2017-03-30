@@ -2,13 +2,13 @@ $(document).ready(init);
 
 function init(){
    $("#btn-1").mouseover(function(){
-	 $(this).removeClass("mdi mdi-lightbulb-outline");
-	 $(this).addClass("mdi mdi-lightbulb-on-outline");  	
+	 $(this).removeClass("mdi-lightbulb-outline");
+	 $(this).addClass("mdi-lightbulb-on-outline");  	
    });
 
    $("#btn-1").mouseout(function(){
-   	$(this).removeClass("mdi mdi-lightbulb-on-outline");
-	 $(this).addClass("mdi mdi-lightbulb-outline");
+   	$(this).removeClass("mdi-lightbulb-on-outline");
+	 $(this).addClass("mdi-lightbulb-outline");
 	   	
    });
 };
