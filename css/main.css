@@ -332,7 +332,7 @@ textarea {
 
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #ffd500;
+    color: #ffec00;
 }
 
 img.image-home {
@@ -390,7 +390,18 @@ p.resume-post {
     font-size: 16px;
     color: #000;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.l-text-aux {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    text-align: center;
 }
 
 a.btn-publication {
@@ -406,8 +417,6 @@ a.btn-publication:hover {
     background-color: #00e1ff;
     color: #fff;
 }
-
-
 
 div.space {
     margin-top: 40px;
@@ -447,6 +456,18 @@ ul.ul-autor {
     padding-left: 0;
 }
 
+ul.ul-webbinar {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+ul.ul-contacto {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 38%;
+}
+
 li.li-home {
     display: inline-block;
     padding: 15px;
@@ -455,6 +476,18 @@ li.li-home {
 li.li-autor {
     display: inline-block;
     padding: 15px;
+}
+
+li.li-contacto {
+    display: inline-block;
+    padding: 15px;
+}
+
+li.li-autor-text {
+    display: inline-block;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Fredoka One', Cursive;
 }
 
 .mdi-lightbulb-outline {
@@ -479,7 +512,7 @@ li.li-autor {
 }
     
 .mdi-arrow-down-drop-circle {
-    color: #ffec00;
+    color: #00e1ff;
     font: normal normal normal 24px/1 "Material Design Icons";
     font-size: 160px;
     cursor: -webkit-grab 
@@ -504,7 +537,7 @@ li.li-autor {
 .mdi-facebook {
     font: normal normal normal 24px/1 "Material Design Icons";
     font-size: 36px;
-    color: #333;
+    color: #000;
 }
 
 .mdi-facebook:hover {
@@ -514,7 +547,7 @@ li.li-autor {
 .mdi-twitter {
     font: normal normal normal 24px/1 "Material Design Icons";
     font-size: 36px;
-    color: #333;
+    color: #000;
 }
 
 .mdi-twitter:hover {
@@ -524,7 +557,7 @@ li.li-autor {
 .mdi-instagram {
     font: normal normal normal 24px/1 "Material Design Icons";
     font-size: 36px;
-    color: #333;
+    color: #000;
 }
 
 .mdi-instagram:hover {
@@ -534,11 +567,20 @@ li.li-autor {
 .mdi-github-face {
     font: normal normal normal 24px/1 "Material Design Icons";
     font-size: 36px;
-    color: #333;
+    color: #000;
 }
 
 .mdi-github-face:hover {
     color: #00e1ff
+}
+
+.mdi-soundcloud {
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 160px;
+    color: #00e1ff;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
 }
 
 .l-blog {
@@ -561,6 +603,35 @@ li.li-autor {
     margin-left: 45%;
 }
 
+.l-contacto {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: #ffec00;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 280px;
+    position: relative;
+}   
+
+.l-contacto-tittle {
+    font-family: 'Fredoka One', Cursive;
+    font-size: 40px;
+    color: #000;
+    position: relative;
+    margin: 5%;
+    margin-left: 45%;
+} 
+
+.l-webbinar-tittle {
+    font-family: 'Fredoka One', Cursive;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    margin: 2%;
+    margin-left: 43%;
+}
+
 .l-autor {
     margin-top: 60px;
     margin-bottom: 40px;
@@ -581,9 +652,10 @@ li.li-autor {
     margin-left: 33%;
 }
 
+
 .l-blog-sub {
-    margin-top: 40px;
-    margin-bottom: 70px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     background-color: #fff;
     height: 50px;
     position: relative;
@@ -591,10 +663,38 @@ li.li-autor {
 
 .l-blog-subtittle {
     font-family: 'Oswald', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     color: #000;
     position: absolute;
-    margin-left: 35%;
+    margin-left: 36%;
+}
+
+.l-podcast {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-color: #00e1ff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100px;
+    position: relative;
+}
+
+.l-podcast-tittle {
+    font-family: 'Fredoka One', Cursive;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    margin: 2%;
+    margin-left: 45%;
+}
+
+.l-podcast-subtittle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: #000;
+    position: absolute;
+    margin-left: 40%;
 }
 
 .l-thumbnail-tittle {
@@ -603,10 +703,23 @@ li.li-autor {
     color: #000;
 }
 
+.l-thumbnail-tittle-alt{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
 .c-media-object {
     display: block;
     max-width: 450px;
     height: auto;
+}
+
+.c-media-object-autor {
+    display: block;
+    max-width: 450px;
+    height: auto;
+    margin: 10%;
 }
 
 .c-thumbnail {
